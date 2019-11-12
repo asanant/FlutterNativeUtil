@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
     try {
       platformVersion = await FlutterToolplugin.getKeyChainSyDid;
       if(platformVersion==null){
-        FlutterToolplugin.saveKeyChainSyDi("1112222");
+        FlutterToolplugin.saveKeyChainSyDiy("1112222");
       }
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';

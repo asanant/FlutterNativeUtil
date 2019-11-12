@@ -11,7 +11,7 @@ class FlutterToolplugin {
     return value;
   }
 
-  static Future<void>  saveKeyChainSyDi(String value) async {
+  static Future<void>  saveKeyChainSyDiy(String value) async {
     await _channel.invokeMethod('saveChainSyDid',value);
   }
 

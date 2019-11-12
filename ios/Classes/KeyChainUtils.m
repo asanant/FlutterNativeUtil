@@ -20,10 +20,12 @@
 }
 
 -(NSString *)getData:(NSString *)key{
-    NSString *value=@"";
         NSMutableDictionary *udidKVPairs = (NSMutableDictionary *)[
             [KeyChainUtils shareKeyChainUDID] loadDataInService:key];
-         value= [udidKVPairs objectForKey:key];
+      NSString *value= [udidKVPairs objectForKey:key];
+    if(value==nil){
+        value=@"";
+    }
     return value;
 }
 
