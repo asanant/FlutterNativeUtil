@@ -15,4 +15,9 @@ class FlutterToolplugin {
     await _channel.invokeMethod('saveChainSyDid',value);
   }
 
+  static Future<String>  getExternalStorage() async {
+   return  await _channel.invokeMethod('getExternalStorage');
+  }
+
+
 }

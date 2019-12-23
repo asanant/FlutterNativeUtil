@@ -25,9 +25,8 @@ class _MyAppState extends State<MyApp> {
     String platformVersion;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      platformVersion = await FlutterToolplugin.getKeyChainSyDid;
+      platformVersion = await FlutterToolplugin.getExternalStorage();
       if(platformVersion==null){
-        FlutterToolplugin.saveKeyChainSyDiy("1112222");
       }
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';

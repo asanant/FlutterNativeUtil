@@ -1,5 +1,7 @@
 package com.example.flutter_toolplugin;
 
+import android.os.Environment;
+
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
@@ -16,8 +18,8 @@ public class FlutterToolpluginPlugin implements MethodCallHandler {
 
   @Override
   public void onMethodCall(MethodCall call, Result result) {
-    if (call.method.equals("getPlatformVersion")) {
-      result.success("Android " + android.os.Build.VERSION.RELEASE);
+    if (call.method.equals("getExternalStorage")) {
+      result.success(Environment.getExternalStorageDirectory().getPath());
     } else {
       result.notImplemented();
     }
