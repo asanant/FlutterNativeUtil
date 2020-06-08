@@ -69,6 +69,7 @@ public class FlutterToolpluginPlugin implements MethodCallHandler {
                     try {
                         channelId =String.valueOf(appInfo.metaData.getInt("APP_CHANNEL"));
                     }catch (Exception e){
+                        channelId="0";
                         e.printStackTrace();
                     }
                     if (channelId=="0") {

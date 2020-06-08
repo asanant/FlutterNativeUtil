@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6cbd61e2-7a55-46ce-994b-aa43c23d3691" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/example/flutter_toolplugin/FlutterToolpluginPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/example/flutter_toolplugin/FlutterToolpluginPlugin.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +17,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_4_API_29" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="728" />
   </component>
   <component name="ProjectId" id="1d1Cqbv9dWLcAmPVyLHI5FD5H5B" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
