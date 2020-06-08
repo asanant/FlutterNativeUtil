@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 
 class FlutterToolplugin {
@@ -17,6 +18,11 @@ class FlutterToolplugin {
 
   static Future<String>  getExternalStorage() async {
    return  await _channel.invokeMethod('getExternalStorage');
+  }
+
+
+  static Future<String>  get channelId async {
+    return  await _channel.invokeMethod('getChannelId');
   }
 
 
