@@ -151,7 +151,7 @@ public class FlutterToolpluginPlugin implements MethodCallHandler {
             }
         }
         System.out.println ("ERROR! ZIP comment NOT found!");
-        return null;
+        return "";
     }
 
 
