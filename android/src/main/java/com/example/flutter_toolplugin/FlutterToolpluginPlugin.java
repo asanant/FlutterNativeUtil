@@ -96,7 +96,7 @@ public class FlutterToolpluginPlugin implements MethodCallHandler {
      */
 
     public  String extractZipComment (String filename) {
-        String retStr = null;
+        String retStr = "";
         try {
             File file = new File(filename);
             int fileLen = (int)file.length();
